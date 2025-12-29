@@ -1,30 +1,31 @@
-# 🀄 Welcome to Mahjong Hub! 🎴
+# Mahjong Hub
 
-> *Where tiles meet code, and every commit is a winning hand* 🎯
+A platform for mahjong tile detection and game analysis using machine learning and mobile technology.
 
-## 🎲 What We're Building
+## Repositories
 
-We're crafting the digital future of Mahjong - one tile at a time! Whether you're here to:
-- 🀀 Learn the ancient game in a modern way
-- 🎮 Play online with friends around the world
-- 🤖 Explore AI that knows when to *pung* and when to fold
-- 📊 Dive into strategy analytics and game theory
+### [mahjong-api](https://github.com/mahjong-hub/mahjong-api)
+Django REST Framework backend providing mahjong tile detection through ML-based inference. Key features:
+- **YOLOv11-based tile detection** from uploaded images
+- **AWS integration** with S3 for secure image storage and SQS for async task processing
+- **Celery workers** for background ML inference jobs
+- **REST API** for mobile client integration
+- **Tech stack**: Python, Django, Django REST Framework, PostgreSQL, Docker, AWS ECS/EC2
 
-...you're in the right place!
+### [mahjong-mobile](https://github.com/mahjong-hub/mahjong-mobile)
+Mobile application client for the mahjong platform. Key features:
+- **Cross-platform support** for iOS and Android
+- **Image capture and upload** for tile detection
+- **Hand analysis interface** for viewing detected tiles
+- **Tech stack**: TypeScript, React Native, Expo
 
-## 🌟 Our Philosophy
+## Project Overview
 
-```
-East Wind → Innovation
-South Wind → Community  
-West Wind → Open Source
-North Wind → Fun!
-```
+This organization develops tools to help mahjong players:
+- **Tile Recognition**: Automatically detect and identify mahjong tiles from photos
+- **Hand Analysis**: Analyze tile combinations and potential winning hands
+- **Learning Support**: Assist new players in understanding tile patterns
 
-## 🚀 Join the Table
+## Contributing
 
-Pull up a chair! We're always looking for passionate developers, designers, and Mahjong enthusiasts. Check out our repositories and don't be shy - we don't bite (unlike that one player who always steals your winning tile).
-
----
-
-*Remember: In Mahjong and in code, patience and strategy win the game* 🏆
+Contributions are welcome. Please check individual repository README files for development setup and contribution guidelines.
