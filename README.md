@@ -1,6 +1,6 @@
 # Mahjong Hub
 
-A platform for mahjong tile detection and game analysis using machine learning and mobile technology.
+![Image](https://github.com/user-attachments/assets/c97d6aca-b246-4c7c-a65a-335651d0ca56)
 
 ## Repositories
 
